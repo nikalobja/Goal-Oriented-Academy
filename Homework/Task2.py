@@ -1,19 +1,32 @@
-"""2)შექმენით პროგრამა სადაც მომხმარებელი შემოიტანს 5 რციხვს, 
-ხოლო ამ 5 რიცხვს შორის გამოიყენეთ ყველა არითმეტიკული ოპერაცია (// და %_იც), 
-საბოლოოდ დაბეჭდეთ შედეგები ტერმინალში + ახსენით თითოეული ნაწილი კოდის რატომ დაწერეთ კონკრეტული ხაზი და რას აკეთებს."""
+"""2)ჩამოწერეთ 10-10 მაგალითი and და or ოპერატორებზე"""
+
+print(False or 10<18)
+print(5>3 or False)
+print(5>2 or 7==6)
+print(10>=11 or 5!=10)
+print(5<=3 or 10==11)
+print(10!=10 or 16<11)
+print(9<16 or 10<=11)
+print(21==21 or 12>=10)
+print(4>=15 or 11!=22)
+print(19==10 or 28!=28)
+print(16<=11 or 3>5)
 
 
-number = int(input("enter your number: "))#declared varieble as integer converted input value
-number1 = int(input("enter your number1: "))
-number2 = int(input("enter your number2: "))
-number3 = int(input("enter your number3: "))
-number4 = int(input("enter your number4: "))
-print(number + number1)#added number and number1
-print(number1 - number2)#subtracted number2 from number1
-print(number4 / number3)#number4 divided by number3
-print(number3 * number4)#number3 multiplied by number4
-print(number2 // number4)#number2 floor divided number4
-print(number % number2)#number modulo by number2
+
+print(11==11 and 6>=3)
+print(23!=12 and 11!=8)
+print(8!=7 and 22==1)
+print(7==11 and 34>19)
+print(12<19 and 11<=12)
+print(22<39 and 7==11)
+print(10>6 and 9!=9)
+print(17!=7 and 61>11)
+print(9>=8 and 10>=11)
+print(3<=9 and 15<16)
+print(8!=10 and 25==25)
+
+
 
 
 

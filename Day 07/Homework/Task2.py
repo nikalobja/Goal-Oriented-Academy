@@ -8,12 +8,12 @@ number1 = int(input("enter your number1: "))
 number2 = int(input("enter your number2: "))
 number3 = int(input("enter your number3: "))
 number4 = int(input("enter your number4: "))
-print(number + number1)#
-print(number1 - number2)
-print(number4 / number3)
-print(number3 * number4)
-print(number2 // number4)
-print(number % number2)
+print(number + number1)#added number and number1
+print(number1 - number2)#subtracted number2 from number1
+print(number4 / number3)#number4 divided by number3
+print(number3 * number4)#number3 multiplied by number4
+print(number2 // number4)#number2 floor divided number4
+print(number % number2)#number modulo by number2
 
 
 
